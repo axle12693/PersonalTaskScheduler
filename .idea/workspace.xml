@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c39b083c-2898-4f1c-9f99-ed4f0e4b8865" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Menu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Menu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="530" column="63" selection-start-line="530" selection-start-column="63" selection-end-line="530" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#316#1693#0" />
+                <element signature="e#1758#2515#0" />
+                <element signature="e#2547#2791#0" />
+                <element signature="e#2824#3949#0" />
+                <element signature="e#3978#4234#0" />
+                <element signature="e#4258#4956#0" />
+                <element signature="e#4986#5204#0" />
+                <element signature="e#5234#6719#0" />
+                <element signature="e#6753#7234#0" />
+                <element signature="e#7277#7554#0" />
+                <element signature="e#7589#7838#0" />
+                <element signature="e#7887#8182#0" />
+                <element signature="e#8223#8514#0" />
+                <element signature="e#8552#9183#0" />
+                <element signature="e#9213#9501#0" />
+                <element signature="e#9539#10012#0" />
+                <element signature="e#10051#10317#0" />
+                <element signature="e#10349#10605#0" />
+                <element signature="e#10644#10943#0" />
+                <element signature="e#10974#11597#0" />
+                <element signature="e#11632#12571#0" />
+                <element signature="e#12601#13257#0" />
+                <element signature="e#13289#13811#0" />
+                <element signature="e#13814#13841#0" />
+                <element signature="e#16928#17746#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/task.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/data.py" />
+        <option value="$PROJECT_DIR$/Menu.py" />
+        <option value="$PROJECT_DIR$/Task.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="70" />
+    <option name="width" value="1935" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PersonalTaskSchedulerV2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalTaskSchedulerV2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/KNN Project" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\PycharmProjects\PersonalTaskSchedulerV2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalTaskSchedulerV2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalTaskSchedulerV2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c39b083c-2898-4f1c-9f99-ed4f0e4b8865" name="Default" comment="" />
+      <created>1567368827952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567368827952</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1354924" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.287062" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32884097" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14883">
+          <caret line="463" column="21" selection-start-line="463" selection-start-column="21" selection-end-line="463" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10384">
+          <caret line="484" column="29" lean-forward="true" selection-start-line="484" selection-start-column="29" selection-end-line="484" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10274">
+          <caret line="478" column="21" selection-start-line="478" selection-start-column="21" selection-end-line="478" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8712">
+          <caret line="396" column="16" lean-forward="true" selection-start-line="396" selection-start-column="16" selection-end-line="396" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5566">
+          <caret line="415" column="29" lean-forward="true" selection-start-line="415" selection-start-column="29" selection-end-line="415" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4906">
+          <caret line="233" column="20" lean-forward="true" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10604">
+          <caret line="492" column="30" lean-forward="true" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7590">
+          <caret line="355" column="17" selection-start-line="355" selection-start-column="17" selection-end-line="355" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10978">
+          <caret line="509" column="16" lean-forward="true" selection-start-line="487" selection-start-column="6" selection-end-line="509" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py" />
+    <entry file="file://$PROJECT_DIR$/Task.py" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4158">
+          <caret line="195" column="31" lean-forward="true" selection-start-line="195" selection-start-column="31" selection-end-line="195" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3916">
+          <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py" />
+    <entry file="file://$PROJECT_DIR$/Task.py" />
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py" />
+    <entry file="file://$PROJECT_DIR$/Task.py" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py" />
+    <entry file="file://$PROJECT_DIR$/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="530" column="63" selection-start-line="530" selection-start-column="63" selection-end-line="530" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#316#1693#0" />
+            <element signature="e#1758#2515#0" />
+            <element signature="e#2547#2791#0" />
+            <element signature="e#2824#3949#0" />
+            <element signature="e#3978#4234#0" />
+            <element signature="e#4258#4956#0" />
+            <element signature="e#4986#5204#0" />
+            <element signature="e#5234#6719#0" />
+            <element signature="e#6753#7234#0" />
+            <element signature="e#7277#7554#0" />
+            <element signature="e#7589#7838#0" />
+            <element signature="e#7887#8182#0" />
+            <element signature="e#8223#8514#0" />
+            <element signature="e#8552#9183#0" />
+            <element signature="e#9213#9501#0" />
+            <element signature="e#9539#10012#0" />
+            <element signature="e#10051#10317#0" />
+            <element signature="e#10349#10605#0" />
+            <element signature="e#10644#10943#0" />
+            <element signature="e#10974#11597#0" />
+            <element signature="e#11632#12571#0" />
+            <element signature="e#12601#13257#0" />
+            <element signature="e#13289#13811#0" />
+            <element signature="e#13814#13841#0" />
+            <element signature="e#16928#17746#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
