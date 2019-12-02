@@ -17,6 +17,34 @@ import time
 user_id = 0
 
 
+def get_input(text, input_type, not_null=True, greater_than=(), less_than=(), allowed_values=()):
+    answer = None
+    done = False
+    while not done:
+        answer = input(text)
+        done = True
+        try:
+            answer = input_type(answer)
+        except:
+            done = False
+            continue
+        if not_null and (answer == None or answer == ""):
+            done = False
+            continue
+        if greater_than:
+            if answer <= greater_than[0]:
+                done = False
+                continue
+        if less_than:
+            if answer >= less_than[0]:
+                done = False
+                continue
+        if allowed_values and (answer not in allowed_values):
+            done = False
+            continue
+    return answer
+
+
 def first_run():
     print("Please be patient... setting up database.")
     conn = sqlite3.connect("data.db")
@@ -74,7 +102,7 @@ def verify_login_and_get_id(login_uname, login_password):
     c = conn.cursor()
 
     c.execute('''SELECT user_salt FROM User
-                 WHERE user_name = \'''' + login_uname + '''\'''')
+                 WHERE user_name = ?''', [login_uname])
 
     salt = c.fetchone()
 
@@ -87,11 +115,9 @@ def verify_login_and_get_id(login_uname, login_password):
     c.execute('''
 
     SELECT user_id FROM User
-    WHERE user_name = \'''' + login_uname + '''\'
-    AND user_pw_hash = \'''' + str(
-        hashlib.sha3_256((login_password + login_uname + salt).encode('utf-8')).hexdigest()) + '''\'
-
-    ''')
+    WHERE user_name = ?
+    AND user_pw_hash = ?''',
+              [login_uname, str(hashlib.sha3_256((login_password + login_uname + salt).encode('utf-8')).hexdigest())])
 
     login_password = '0'
     user_id = c.fetchone()
@@ -108,7 +134,7 @@ def verify_login_and_get_id(login_uname, login_password):
 
 def try_log_in(options):
     global user_id
-    user_name = input("Username: ")
+    user_name = get_input("Username: ", str)
     password = ""
     password = getpass.getpass("Password: ")
     user_id = verify_login_and_get_id(user_name, password)
@@ -125,13 +151,15 @@ def create_user(options):
     while not valid_user_name_found:
         for i in range(100):
             print()
-        new_user_name = input("New Username: ")
+        new_user_name = get_input("New Username: ", str)
+        if new_user_name == "":
+            continue
         c.execute('''
 
         SELECT user_name FROM User
-        WHERE user_name = \'''' + new_user_name + '''\'
+        WHERE user_name = ?
 
-        ''')
+        ''', (new_user_name,))
         found = c.fetchone()
         if found:
             print("This username is already in use.")
@@ -150,10 +178,10 @@ def create_user(options):
 
     INSERT INTO User
     (user_name, user_salt, user_pw_hash)
-    VALUES (\'''' + new_user_name + '''\', \'''' + salt + '''\', \'''' + str(
-        hashlib.sha3_256((password + new_user_name + salt).encode('utf-8')).hexdigest()) + '''\')
+    VALUES (?, ?, ?)
 
-    ''')
+    ''', (new_user_name, salt, str(
+        hashlib.sha3_256((password + new_user_name + salt).encode('utf-8')).hexdigest())))
     password = '0'
 
     conn.commit()
@@ -210,21 +238,21 @@ def add_task(options):
     if not categories:
         print("There are no categories to add the task to. Please add a category first.")
         return
-    task_text = input("What is the task? ")
+    task_text = get_input("What is the task? ", str)
     print("What category does the task belong to?")
     task_category = choose_category()
-    task_importance = input("How important is this task to that category? ")
-    year_due = input("Year the task is due: ")
-    month_due = input("Month the task is due (1-12): ")
-    day_due = input("Day the task is due: ")
-    hour_due = input("Hour the task is due: ")
-    minute_due = input("Minute the task is due: ")
+    task_importance = get_input("How important is this task to that category? ", int, greater_than=(0,), less_than=(11,))
+    year_due = get_input("Year the task is due: ", int)
+    month_due = get_input("Month the task is due (1-12): ", int, greater_than=(0,), less_than=(13,))
+    day_due = get_input("Day the task is due: ", int, greater_than=(0,), less_than=(32,))
+    hour_due = get_input("Hour the task is due: ", int, greater_than=(-1,), less_than=(25,))
+    minute_due = get_input("Minute the task is due: ", int, greater_than=(-1,), less_than=(61,))
     date_due = datetime.date(int(year_due), int(month_due), int(day_due))
     date_due = date_due.toordinal()
     date_due += int(hour_due) / 24
     date_due += int(minute_due) / (24 * 60)
-    rep_interval = input("Number of days between repetitions: ")
-    allow_completion_before_due = input("Allow completion before due date (y/n): ")
+    rep_interval = get_input("Number of days between repetitions: ", int, greater_than=(-1,))
+    allow_completion_before_due = get_input("Allow completion before due date (y/n): ", str, allowed_values=('y', 'n'))
 
     conn = sqlite3.connect("data.db")
     c = conn.cursor()
@@ -243,8 +271,9 @@ def add_task(options):
 
 
 def add_category(options):
-    cat_name = input("What is the name of the new category?")
-    cat_importance = input("From 1 to 10, what is the importance of the category to your overall well-being?")
+    cat_name = get_input("What is the name of the new category?", str)
+    cat_importance = get_input("From 1 to 10, what is the importance of the category to your overall well-being?",
+                               int, greater_than=(0,), less_than=(11,))
     conn = sqlite3.connect("data.db")
     c = conn.cursor()
     c.execute('''
@@ -321,7 +350,7 @@ def change_task_importance(task):
 
 
 def delete_category(category):
-    if input("Are you sure you want to delete this category? (y/n)") != 'y':
+    if get_input("Are you sure you want to delete this category? (y/n)", str, allowed_values=('y', 'n')) != 'y':
         return
     conn = sqlite3.connect("data.db")
     c = conn.cursor()
@@ -349,7 +378,7 @@ def delete_category(category):
 
 
 def delete_task(task):
-    if input("Are you sure you want to delete this task? (y/n)") != 'y':
+    if get_input("Are you sure you want to delete this task? (y/n)", str, allowed_values=('y', 'n')) != 'y':
         return
     conn = sqlite3.connect("data.db")
     c = conn.cursor()
@@ -418,11 +447,11 @@ def change_task_interval(task):
 
 
 def put_off_task(task):
-    year = input("Year to postpone until: ")
-    month = input("Month to postpone until (1-12): ")
-    day = input("Day to postpone until: ")
-    hour = input("Hour to postpone until: ")
-    minute = input("Minute to postpone until: ")
+    year =get_input("Year to postpone until: ", int)
+    month = get_input("Month to postpone until (1-12): ", int, greater_than=(0,), less_than=(13,))
+    day = get_input("Day to postpone until: ", int, greater_than=(0,), less_than=(32,))
+    hour = get_input("Hour to postpone until: ", int, greater_than=(-1,), less_than=(25,))
+    minute = get_input("Minute to postpone until: ", int, greater_than=(-1,), less_than=(61,))
     postpone = datetime.date(int(year), int(month), int(day))
     postpone = postpone.toordinal()
     postpone += int(hour) / 24
@@ -449,11 +478,11 @@ def change_task_date(task):
     print(str(day) + ", " + str(hour) + ":" + str(minute))
     conn = sqlite3.connect("data.db")
     c = conn.cursor()
-    year_due = input("Year the task is due: ")
-    month_due = input("Month the task is due (1-12): ")
-    day_due = input("Day the task is due: ")
-    hour_due = input("Hour the task is due: ")
-    minute_due = input("Minute the task is due: ")
+    year_due = get_input("Year the task is due: ", int)
+    month_due = get_input("Month the task is due (1-12): ", int, greater_than=(0,), less_than=(13,))
+    day_due = get_input("Day the task is due: ", int, greater_than=(0,), less_than=(32,))
+    hour_due = get_input("Hour the task is due: ", int, greater_than=(-1,), less_than=(25,))
+    minute_due = get_input("Minute the task is due: ", int, greater_than=(-1,), less_than=(61,))
     date_due = datetime.date(int(year_due), int(month_due), int(day_due))
     date_due = date_due.toordinal()
     date_due += int(hour_due) / 24
@@ -496,22 +525,6 @@ def browse_tasks(tasks):
     browse_tasks_menu.display(["exit_on_choose"])
 
 
-# def reset_postpone(task):
-#     conn = sqlite3.connect("data.db")
-#     c = conn.cursor()
-#     c.execute('''
-#
-#     UPDATE Task
-#     SET task_postpone = 0
-#     WHERE task_id = ?
-#
-#     ''', [task.id])
-#     conn.commit()
-#     c.close()
-#     conn.close()
-#     task.postpone = 0
-
-
 def filter_if_contains_quadrant1_tasks(task_list):
     max_imp = task_list[0].importance * task_list[0].category_importance
     min_imp = task_list[0].importance * task_list[0].category_importance
@@ -528,17 +541,30 @@ def filter_if_contains_quadrant1_tasks(task_list):
         elif task.due_date < min_due_date:
             min_due_date = task.due_date
     imp_midpoint = (max_imp + min_imp) / 2
-    due_date_midpoint = datetime.datetime.now().toordinal() + 3  #(max_due_date + datetime.datetime.now().toordinal()) / 2
+    due_date_cutoff = datetime.datetime.now().toordinal() + 3
+    due_date_midpoint = (max_due_date + datetime.datetime.now().toordinal()) / 2
     q1_tasks = []
     for task in task_list:
         imp = task.importance * task.category_importance
-        if imp >= imp_midpoint and task.due_date < due_date_midpoint:
+        if imp >= imp_midpoint and task.due_date < due_date_midpoint and task.due_date < due_date_cutoff:
             q1_tasks.append(task)
     if len(q1_tasks) > 8:
         q1_tasks = filter_if_contains_quadrant1_tasks(q1_tasks)
     if q1_tasks:
         print("True")
         return q1_tasks
+    print("False")
+    return task_list
+
+
+def filter_is_tasks_overdue(task_list):
+    overdue_tasks = []
+    for task in task_list:
+        if task.due_date < datetime.datetime.now().toordinal():
+            overdue_tasks.append(task)
+    if overdue_tasks:
+        print("True")
+        return overdue_tasks
     print("False")
     return task_list
 
@@ -578,6 +604,8 @@ def view_next_tasks(options):
     y = []
     z = []
     valid_tasks = filter_if_contains_quadrant1_tasks(valid_tasks)
+    print(" ")
+    valid_tasks = filter_is_tasks_overdue(valid_tasks)
     for valid_task in valid_tasks:
         imp = int(valid_task.category_importance) * int(valid_task.importance) / 10
         x.append(imp)
